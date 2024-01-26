@@ -559,12 +559,126 @@ ul.pricing__item {
     letter-spacing: 1.2px;
 }
 
+.clients {
+    padding: 70px 0 95px;
+}
 
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.connection {
+    padding: 145px 0 160px;
+    background-image: url("../img/map.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right 65%;
+}
 
+.connection__title {
+    margin-bottom: 80px;
+}
 
+.form {
+    max-width: 570px;
+}
 
+.form input,
+.form textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #373A39;
+    padding: 16px 0;
+    margin-bottom: 16px;
+}
 
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #B8B8B8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3.709px;
+    text-transform: uppercase;
+}
 
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
 
+.form button {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 70px 15px;
+    border: none;
+    background-color: #242121;
+    cursor: pointer;
+    margin-top: 40px;
+}
 
+.footer__top {
+    background-color: #333;
+    padding: 110px 10px 60px;
+    text-align: center;
+}
+
+.footer__logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    border-bottom: 2px solid #FCBB08;
+    margin-bottom: 70px;
+}
+
+ul.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.footer__social-list {
+    padding: 0 15px;
+}
+
+.footer__social-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.footer__contact {
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.footer__contact a {
+    display: block;
+    margin:10px 0;
+    color: #fff;
+}
+
+.go-top {
+    display: inline-block;
+}
+
+.footer__copy {
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ccc;
+    background: #2A2C2B;
+}
